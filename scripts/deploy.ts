@@ -10,7 +10,7 @@ const { abi } = require("../abis/CoinFlip.json");
 async function main() {
   const coinFlip = await ethers.getContractAt(
     abi,
-    "0xC83410b2F301d5A2122b75711f86f1f682fb0a34"
+    "0xb2558954D0cA5E6eff12692b341DD7AF2F22474f"
   );
   const factor = BigNumber.from(
     "57896044618658097711785492504343953926634992332820282019728792003956564819968"
